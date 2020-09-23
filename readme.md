@@ -1,3 +1,15 @@
+Sistem Manajemen Surat
+
+Sistem ini dibangun dengan  framework laravel dan basis data MySQL dengan menggunakan template dari admin LTE. 
+
+Adapun fitur dari sistem ini antara lain : 
+1. Multi user (Admin, Petugas)
+2. Mengelola data surat masuk dan keluar 
+3. Upload file surat masuk dan keluar 
+4. Mengelola Klasifikasi Surat
+5. Cetak agenda surat masuk dan keluar 
+6. Melihat galery file surat masuk dan keluar.
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
