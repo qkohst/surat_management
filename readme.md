@@ -10,6 +10,20 @@ Adapun fitur dari sistem ini antara lain :
 5. Cetak agenda surat masuk dan keluar 
 6. Melihat galery file surat masuk dan keluar.
 
+![0](https://user-images.githubusercontent.com/57386598/94008594-75851380-fdcd-11ea-9c4b-8106a94a81c1.png)
+
+![1](https://user-images.githubusercontent.com/57386598/94008605-79b13100-fdcd-11ea-983f-6e89342e3f16.png)
+
+![2](https://user-images.githubusercontent.com/57386598/94008611-7d44b800-fdcd-11ea-9301-b40ad82f967d.png)
+
+![3](https://user-images.githubusercontent.com/57386598/94008619-80d83f00-fdcd-11ea-8292-0778a54fd2d2.png)
+
+![4](https://user-images.githubusercontent.com/57386598/94008629-83d32f80-fdcd-11ea-909f-fe1b7c89b1f6.png)
+
+![5](https://user-images.githubusercontent.com/57386598/94008645-8a61a700-fdcd-11ea-8ce7-e52e8ce2e5cf.png)
+
+![6](https://user-images.githubusercontent.com/57386598/94008655-8e8dc480-fdcd-11ea-855e-b525dc141c39.png)
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
