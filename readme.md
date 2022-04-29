@@ -1,14 +1,99 @@
-Sistem Manajemen Surat
+<div id="top"></div>
 
-Sistem ini dibangun dengan  framework laravel dan basis data MySQL dengan menggunakan template dari admin LTE. 
+# Mail Management System
 
-Adapun fitur dari sistem ini antara lain : 
-1. Multi user (Admin, Petugas)
-2. Mengelola data surat masuk dan keluar 
-3. Upload file surat masuk dan keluar 
-4. Mengelola Klasifikasi Surat
-5. Cetak agenda surat masuk dan keluar 
-6. Melihat galery file surat masuk dan keluar.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about">About The Project</a>
+         <ul>
+        <li><a href="#features">Features</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#installation">Installation</a>
+    </li> 
+    <li>
+      <a href="#screenshoot">Screenshoot</a>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
+</details>
+
+<p id="about">
+This system is built with the laravel framework and MySQL database using a template from the admin LTE.
+</p>
+
+<h4 id="features">
+    The features of this system globally include:
+</h4>
+<ul>
+    <li>
+       Multi user (Admin, Officer).
+    </li>
+    <li>
+       Manage incoming and outgoing mail data.
+    </li>
+    <li>
+       Upload incoming and outgoing mail files
+    </li>
+    <li>
+       Manage mail Classification
+    </li>
+    <li>
+       Print the agenda for incoming and outgoing letters
+    </li>
+    <li>
+       View the gallery of incoming and outgoing mail files.
+    </li>
+</ul>
+
+## Installation 
+To run the application on your computer, please follow the following command : 
+
+1. Clone the repo
+   ```sh
+   $ git clone https://github.com/qkohst/surat_management.git
+   ```
+2. Change directory in project which already clone
+   ```sh
+   $ cd surat_management
+   ```
+3. Install Composer packages
+   ```sh
+   $ composer install
+   ```
+4. Create database on your computer
+5. Create a copy of your .env file 
+   ```sh
+   $ cp .env.example .env
+   ```
+6. In the .env file, add database information to allow Laravel to connect to the database
+   ```sh
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE={database-name}
+   DB_USERNAME={username-database}
+   DB_PASSWORD={password-database}
+   ```
+7. Generate an app encryption key
+   ```sh
+   $ php artisan key:generate
+   ```
+8. Import ``manajemen_surat.sql``
+9. Running project
+    ```sh
+    $ php artisan serve
+    ```
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<div id="screenshoot"></div>
+
+## Screenshoot 
 
 ![0](https://user-images.githubusercontent.com/57386598/94008594-75851380-fdcd-11ea-9c4b-8106a94a81c1.png)
 
